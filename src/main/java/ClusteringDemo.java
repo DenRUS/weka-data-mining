@@ -71,19 +71,9 @@ public class ClusteringDemo {
 //        data=arffLoader.getDataSet();
 
 //        data.setClassIndex(data.numAttributes() - 1);
-
-
         System.out.println("Cluster Evaluation: "+eval.clusterResultsToString());
-
-
 //        createFrame(data);
     }
-
-
-
-
-
-
     /**
      * usage:
      * DecisionTree arff-file
